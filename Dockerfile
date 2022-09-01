@@ -8,4 +8,4 @@ ENV CI=1
 RUN npx cypress install
 
 EXPOSE 3000
-CMD node server.js
+CMD node index.js
