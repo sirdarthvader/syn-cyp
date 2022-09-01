@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2022-09-01T18:19:16.191Z",
-    "end": "2022-09-01T18:19:32.778Z",
-    "duration": 16587,
+    "start": "2022-09-01T19:07:17.701Z",
+    "end": "2022-09-01T19:07:35.932Z",
+    "duration": 18231,
     "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "9c65e6b1-d962-4367-83c5-241116f1d934",
+      "uuid": "b2715521-0c83-4230-8f5e-987a6aa11ac0",
       "title": "",
       "fullFile": "cypress/e2e/login-spec.cy.js",
       "file": "cypress/e2e/login-spec.cy.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "b1b399e8-8ec2-4342-a23f-da91b92f2748",
+          "uuid": "25fa411c-e196-49c7-a864-3e43a2daebd5",
           "title": "login v1",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "should display account id is required",
               "fullTitle": "login v1 should display account id is required",
               "timedOut": null,
-              "duration": 9468,
+              "duration": 8653,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -47,8 +47,8 @@
               "context": null,
               "code": "cy.get('[data-cy=account-id]').type('abcde');\ncy.get('[data-cy=email]').type(_utils.MFA_STG02_USER_EMAIL);\ncy.get('[data-cy=password]').type(_utils.MFA_STG02_USER_PASSWORD);\ncy.get('[data-cy=login-button]').click();\ncy.contains('Account ID is required field');",
               "err": {},
-              "uuid": "da5294f9-55eb-46fa-876a-6eaea2e9245f",
-              "parentUUID": "b1b399e8-8ec2-4342-a23f-da91b92f2748",
+              "uuid": "04060c01-ff76-4744-8ee9-6cdbcd7f0a6a",
+              "parentUUID": "25fa411c-e196-49c7-a864-3e43a2daebd5",
               "isHook": false,
               "skipped": false
             },
@@ -56,7 +56,7 @@
               "title": "should display invalid account id",
               "fullTitle": "login v1 should display invalid account id",
               "timedOut": null,
-              "duration": 5214,
+              "duration": 5237,
               "state": "passed",
               "speed": "medium",
               "pass": true,
@@ -65,21 +65,21 @@
               "context": null,
               "code": "cy.get('[data-cy=account-id]').type('12345678901234567890');\ncy.get('[data-cy=email]').type(_utils.MFA_STG02_USER_EMAIL);\ncy.get('[data-cy=password]').type(_utils.MFA_STG02_USER_PASSWORD);\ncy.get('[data-cy=login-button]').click();\ncy.contains('Account ID is invalid. Please try again');",
               "err": {},
-              "uuid": "e768a014-fed9-42d8-8667-e76c9fb331d3",
-              "parentUUID": "b1b399e8-8ec2-4342-a23f-da91b92f2748",
+              "uuid": "67d0d674-c3b0-4954-b49a-fbbb6a698187",
+              "parentUUID": "25fa411c-e196-49c7-a864-3e43a2daebd5",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "da5294f9-55eb-46fa-876a-6eaea2e9245f",
-            "e768a014-fed9-42d8-8667-e76c9fb331d3"
+            "04060c01-ff76-4744-8ee9-6cdbcd7f0a6a",
+            "67d0d674-c3b0-4954-b49a-fbbb6a698187"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 14682,
+          "duration": 13890,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
