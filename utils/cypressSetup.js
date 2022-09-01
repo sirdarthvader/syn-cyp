@@ -1,5 +1,5 @@
 const cypress = require('cypress');
-const globby = require('globby');
+
 // Config to be set via environment variables
 module.exports = function cypressSetup() {
   const runCypressTests = (specs) => {
