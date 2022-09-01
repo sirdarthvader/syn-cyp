@@ -15,7 +15,7 @@ app.use(helmet());
 
 // this is the time interval between any 2 runs of any continous monitoring,
 // should be set via env variables
-const WAITING_TIME = process.env.WAITING_TIME_INTERVAL || 60;
+const WAITING_TIME = process.env.WAITING_TIME_INTERVAL || 5;
 const PORT = process.env.PORT || 8080;
 const SPECS_REGEX =
   process.env.SPECS_REGEX || __dirname + '/cypress/e2e/*-spec.cy.js';
