@@ -4,7 +4,7 @@
   "description": "synthetic monitoring using cypress",
   "main": "index.js",
   "scripts": {
-    "prestart": "apt-get install xvfb && ./node_modules/.bin/cypress install",
+    "prestart": "./node_modules/.bin/cypress install && apt-get install xvfb",
     "start": "node index.js",
     "cy:open": "cypress open > /dev/null"
   },
