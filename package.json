@@ -38,6 +38,7 @@
   "devDependencies": {
     "@testing-library/cypress": "^8.0.3",
     "cypress-mochawesome-reporter": "^3.2.2",
-    "eslint": "^8.23.0"
+    "eslint": "^8.23.0",
+    "cypress": "^10.7.0"
   }
 }
