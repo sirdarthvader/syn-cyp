@@ -6,7 +6,8 @@
   "scripts": {
     "prestart": "./node_modules/.bin/cypress install",
     "start": "node index.js",
-    "cy:open": "cypress open > /dev/null"
+    "cy:open": "cypress open > /dev/null",
+    "test": "cypress run"
   },
   "repository": {
     "type": "git",
