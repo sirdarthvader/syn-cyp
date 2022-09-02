@@ -4,7 +4,6 @@
   "description": "synthetic monitoring using cypress",
   "main": "index.js",
   "scripts": {
-    "prestart": "npx install cypress --force",
     "start": "node index.js",
     "cy:open": "cypress open > /dev/null"
   },
